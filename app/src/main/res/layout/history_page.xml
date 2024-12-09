@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/calculatorTitle2"
+        android:layout_width="175dp"
+        android:layout_height="50dp"
+        android:text=" Calculator"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/menuBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/prevCalcTxt"
+        android:layout_width="306dp"
+        android:layout_height="166dp"
+        android:text="previous calculation"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="140dp" />
+
+    <TextView
+        android:id="@+id/prevCalcTxt2"
+        android:layout_width="306dp"
+        android:layout_height="166dp"
+        android:text="previous calculation"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="339dp" />
+
+    <TextView
+        android:id="@+id/prevCalcTxt3"
+        android:layout_width="306dp"
+        android:layout_height="166dp"
+        android:text="previous calculation"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="540dp" />
+
+    <TextView
+        android:id="@+id/prevCalcLbl"
+        android:layout_width="359dp"
+        android:layout_height="41dp"
+        android:text="Previous calculations"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="85dp" />
+
+    <ScrollView
+        android:layout_width="408dp"
+        android:layout_height="599dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="126dp">
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

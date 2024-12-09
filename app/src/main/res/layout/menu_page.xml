@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/calculatorTitle3"
+        android:layout_width="175dp"
+        android:layout_height="50dp"
+        android:text=" Calculator"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/historyBtn"
+        android:layout_width="368dp"
+        android:layout_height="47dp"
+        android:text="History"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="249dp" />
+
+    <Button
+        android:id="@+id/calculatorBtn"
+        android:layout_width="368dp"
+        android:layout_height="47dp"
+        android:text="calculator"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <Button
+        android:id="@+id/graphBtn"
+        android:layout_width="368dp"
+        android:layout_height="47dp"
+        android:text="Graphs"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="477dp" />
+
+    <Button
+        android:id="@+id/unitBtn2"
+        android:layout_width="368dp"
+        android:layout_height="47dp"
+        android:text="Unit Converter"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="364dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
